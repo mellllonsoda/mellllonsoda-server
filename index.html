@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/src/style.css" rel="stylesheet">
+  <title>Mellllonsoda Portfolio</title>
+</head>
+
+<body>
+  <!-- ヘッダー -->
+  <header class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-md fixed w-full top-0 z-50">
+    <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+      <h1 class="text-xl font-bold">Mellllonsoda</h1>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="#about" class="hover:text-gray-200 transition">About</a></li>
+          <li><a href="#projects" class="hover:text-gray-200 transition">Projects</a></li>
+          <li><a href="#links" class="hover:text-gray-200 transition">Links</a></li>
+          <li><a href="#contact" class="hover:text-gray-200 transition">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- コンテンツの余白 -->
+  <main class="pt-20">
+    <!-- About セクション -->
+    <section id="about" class="bg-gray-50 py-16">
+      <div class="max-w-4xl mx-auto px-4 text-center">
+        <h2 class="text-3xl font-bold mb-6">About</h2>
+        <p class="text-gray-700 leading-relaxed mb-4">
+          Mellllonsoda（めろんそ〜だ）は、大分県在住のエンジニアです。
+          Linuxや自由ソフトウェア、IoT、そして火山学に強い関心を持ち、個人開発やオープンソース活動を行っています。
+        </p>
+        <p class="text-gray-700 leading-relaxed mb-4">
+          主なスキルは <span class="font-semibold">Python・Linux</span>。
+          古いハードウェア環境でも新しいソフトウェアを動かす試行や、
+          火山警戒情報の可視化ツールなど、社会や科学と結びつけた開発を得意としています。
+        </p>
+      </div>
+    </section>
+
+    <!-- Projects セクション -->
+    <section id="projects" class="bg-gray-50 py-16">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-12">Projects</h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+          <!-- カード1 -->
+          <div class="bg-white rounded-xl shadow-md overflow-hidden hover:scale-105 transform transition">
+            <img class="w-full h-48 object-cover" src="mellllonsoda-Badge-HFTP.png" alt="HFTPロゴ">
+            <div class="p-6">
+              <h3 class="text-xl font-bold mb-2">Hyper Funya Transfar Protocol</h3>
+              <p class="text-gray-700 mb-4">何をおくっても「ふにゃふにゃ」とだけ返すカスのHTTP拡張プロトコル。</p>
+              <div class="flex space-x-2">
+                <a href="https://github.com/mellllonsoda/Hyper-Funya-Transfar-Protocol"
+                  class="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 transition">Githubを見る</a>
+                <a href="https://hftp.mellllonsoda-server.com"
+                  class="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 transition">実装を見る</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- カード2 -->
+          <div class="bg-white rounded-xl shadow-md overflow-hidden hover:scale-105 transform transition">
+            <img class="w-full h-48 object-cover" src="CQbot.png" alt="CQbotロゴ">
+            <div class="p-6">
+              <h3 class="text-xl font-bold mb-2">同志Bot</h3>
+              <p class="text-gray-700 mb-4">マルクスやレーニンの☭革命的☭語録を表示してくれるDiscordのBot。</p>
+              <a href="https://github.com/mellllonsoda/CQbot"
+                class="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 transition">Githubを見る</a>
+              <a href="https://mellllonsoda.github.io/CQbot-webpage/"
+                class="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 transition">詳細を見る</a>
+            </div>
+          </div>
+
+          <!-- カード3 -->
+          <div class="bg-white rounded-xl shadow-md overflow-hidden hover:scale-105 transform transition">
+            <img class="w-full h-48 object-cover" src="Volcanic-checker.png" alt="Volcanic-checkerロゴ">
+            <div class="p-6">
+              <h3 class="text-xl font-bold mb-2">Volcanic Checker</h3>
+              <p class="text-gray-700 mb-4">JMA公式サイトから噴火警戒レベルを取ってくるライブラリ。</p>
+              <a href="https://github.com/mellllonsoda/volcanic_checker"
+                class="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 transition">Githubを見る</a>
+              <a href="https://pypi.org/project/volcanic-checker/"
+                class="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 transition">PyPIを見る</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Links セクション -->
+    <section id="links" class="bg-gray-50 py-16">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-12">Links</h2>
+
+        <!-- 相互リンク -->
+        <div data-highlight="links-1" class="mb-12">
+          <h3 class="text-2xl font-semibold mb-6">相互リンク</h3>
+          <ul class="space-y-4">
+            <li>
+              <p>産廃は私の命。(Nicoさん)
+                <a href="https://t.co/t9y6NLv085" target="_blank" class="text-blue-600 underline">Nico site</a>
+              </p>
+            </li>
+            <li>
+              <p>プシューサービスのホームへようこそ。(プシューわんこ/ (阿部勇生)さん)
+                <a href="http://pusyuuwanko.com" target="_blank" class="text-blue-600 underline">プシューサービス</a>
+              </p>
+            </li>
+            <li>
+              <p>はるかぜが吹く部屋へようこそ（はるかぜさん）
+                <a href="https://haru-kaze.f5.si/" target="_blank" class="text-blue-600 underline">はるかぜが吹く部屋</a>
+              </p>
+            </li>
+            <li>
+              <p>プロフィールオンリー（彩音さん）
+                <a href="https://ayane0857.net/" target="_blank" class="text-blue-600 underline">彩音のてきとーなサイト</a>
+              </p>
+            </li>
+            <li>
+              <p>サーバー建てました。(ATShiftさん)
+                <a href="https://global.atserver186.jp/index.html" target="_blank"
+                  class="text-blue-600 underline">ATSERVER</a>
+              </p>
+            </li>
+            <li>
+              <p>暇だからHPつくってみたお♨(kaeru(Re:turn)さん)
+                <a href="https://www.kaerubasyo.com/" target="_blank" class="text-blue-600 underline">kaeruの帰ル場所</a>
+              </p>
+            </li>
+            <li>
+              <p>電気代がやばい中学生の自宅サーバー(Link2011さん)
+                <a href="https://linkserver.jp/" target="_blank" class="text-blue-600 underline">Linkserver</a>
+              </p>
+            </li>
+            <li>
+              <p>サーバー大好き！うまいだんごです！(うまいだんごさん)
+                <a href="https://umaii.f5.si/" target="_blank" class="text-blue-600 underline">うまいだんご</a>
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 一方通行リンク -->
+        <div data-highlight="links-2">
+          <h3 class="text-2xl font-semibold mb-6">一方通行リンク</h3>
+          <p>現在なし</p>
+        </div>
+      </div>
+      <!-- Contact セクション -->
+      <section id="contact" class="bg-gray-50 py-16">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+          <h2 class="text-3xl font-bold mb-6">Contact</h2>
+          <div class="space-y-4">
+            <div>
+              <span class="mr-2 font-medium">Mail:</span>
+              <a href="mailto:mellllonsoda0419@gmail.com"
+                class="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
+                mellllonsoda0419@gmail.com
+              </a>
+            </div>
+            <div>
+              <span class="mr-2 font-medium">X:</span>
+              <a href="https://x.com/mellllonsoda"
+                class="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
+                @mellllonsoda
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+  </main>
+
+  <!-- フッター -->
+  <footer class="bg-gray-800 text-gray-200 py-6 text-center">
+    <p>&copy; 2025 Mellllonsoda</p>
+  </footer>
